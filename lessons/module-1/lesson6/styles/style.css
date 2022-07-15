@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+    background: rgb(124, 235, 5);
+    margin: 100px auto;
+    transition: all 2s cubic-bezier(0.92, 0.77, 0, 1.98);
+    /* box-shadow: 20px 20px 2px 0px black, 
+    40px 40px 20px rgb(255, 230, 0); */
+}
+.card:hover{
+    background: purple;
+    box-shadow: 20px 20px 2px 0px black, 
+    40px 40px 2px rgb(255, 230, 0),
+    60px 60px 2px rgb(5, 5, 151);
+    width: 350px;
+    height: 350px;
+}
+.card:active{
+    background-color: blue;
+    box-shadow: none;
+    width: 300px;
+    height: 300px;
+}
+
+.text{
+    text-align: center;
+    font-family: sans-serif;
+    /* text-shadow: 10px 10px 0px rosybrown; */
+}
+.text:hover{
+    text-shadow: 10px 10px 0px rosybrown;
+    font-style: italic;
+}
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    color: blue;
+}
+
+.link:visited{
+    color: red;
+}
+
+
+.list-item{
+    width: 100px;
+    height: 100px;
+    background: black;
+    color: gold;
+    display: inline-block;
+}
+
+.list-item:nth-child(3) {
+    color: rebeccapurple;
+}
+
+.box>p:nth-child(2){
+    color: blue;
+}

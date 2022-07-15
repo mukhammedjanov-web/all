@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+.header {
+  background: #f6f6f9;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.logoo {
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+  border-radius: 5px;
+  padding: 5px 8px;
+  vertical-align: middle;
+}
+.kurs {
+  margin-left: 10px;
+  width: 230px;
+}
+.lupa {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+.header-lang {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #535353;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 4px 5px;
+}
+.header-search {
+  display: flex;
+  align-items: center;
+}
+.fly {
+  vertical-align: middle;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.header-tel {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+.teleg {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.header-1 {
+  width: 990px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.header-search a {
+  margin-left: 20px;
+}
+.navbar {
+  width: 945px;
+  margin-top: 30px;
+  padding: 21px 24px;
+  background: #ffffff;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.navbar a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+
+.navbar a:hover {
+  color: #37aee2;
+}
+
+.banner {
+  width: 990px;
+  height: 88px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.section-1-task {
+  display: flex;
+  list-style-type: none;
+  /* align-items: center; */
+  justify-content: space-around;
+  padding-top: 28px;
+}
+
+.section-1-task-item {
+  display: flex;
+  align-items: center;
+}
+.section-1 {
+  width: 993px;
+  height: 133px;
+  background: #f6f6f9;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.first {
+  width: 340px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+.first p {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+.second p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #db0000;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.second div h3 {
+  margin-left: 15px;
+}
+
+.third p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #05b135;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.third h3 {
+  margin-left: 20px;
+}
+.fourth p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.fourth h3 {
+  margin-left: 15px;
+}
+
+.section-2 {
+  width: 970px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.section-2-task {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-2-task-item img {
+  width: 320px;
+  margin-bottom: 7px;
+}
+.section-2-task-item {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.section-2-task-item h5 {
+  margin-bottom: 7px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+}
+.section-2-task-item p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6b6d97;
+  margin-bottom: 15px;
+}
+.section-3-task {
+  display: flex;
+  align-items: baseline;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.section-3-task img {
+  vertical-align: middle;
+}
+.section-3 {
+  width: 993px;
+  height: 70px;
+  background: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+  margin-left: 100px;
+}
+.section-3 h3 {
+  margin-left: 30px;
+  /* font-weight: 500; */
+  font-size: 20px;
+  line-height: 24px;
+}
+.section-3 button {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    #fe5c28 0%,
+    rgba(255, 139, 54, 0.9) 88.43%
+  );
+  border-radius: 5px;
+  margin-left: 150px;
+  padding: 5px 10px;
+  border: none;
+  color: #ffffff;
+}
+.section-3 button:active {
+  box-shadow: inset 0 0 4px;
+}

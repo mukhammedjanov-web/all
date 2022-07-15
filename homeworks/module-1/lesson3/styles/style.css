@@ -1,0 +1,34 @@
+.pers {
+  margin: 0 auto;
+  text-align: center;
+  color: grey;
+  font-family: sans-serif;
+}
+.item {
+  list-style: none;
+  line-height: 20px;
+  color: grey;
+}
+.task {
+  text-align: center;
+  margin-right: 50px;
+  font-family: sans-serif;
+}
+.stron {
+  color: black;
+}
+.pers2{
+    text-align: center;
+    color: rgba(239, 183, 0, 0.936);
+}
+.pers3{
+    text-align: center;
+    color: brown;
+}
+.image{
+    margin-left: 720px;
+    width: 100px;
+}
+
+
+

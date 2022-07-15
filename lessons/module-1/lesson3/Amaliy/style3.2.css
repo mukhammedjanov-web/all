@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+}
+.text{
+    margin: 0 auto;
+    font-style: italic;
+    border: 3px dotted green;
+    text-align: center;
+    width: 70%;
+}
+.user{
+    text-decoration: none;
+}
+
+
+

@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+/* header styles start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  height: 56px;
+}
+
+.nav__item {
+  display: flex;
+  width: 45%;
+}
+
+.nav__item .nav__ul {
+  list-style-type: none;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__item .nav__ul .nav__list a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #12141d;
+}
+
+.nav__item .btn__login {
+  width: 155px;
+  height: 56px;
+  background: #111e52;
+  border-radius: 8px;
+  border: none;
+}
+
+.nav__item .btn__login a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+/* header styles end */
+
+/* main styles start */
+/* section one styles start */
+.section_one {
+  background: linear-gradient(0deg, #e9e9f9 0.76%, rgba(225, 226, 255, 0) 100%),
+    #ffffff;
+}
+.section_1 {
+  margin-top: 153px;
+  display: flex;
+}
+.section_1 .section_1_task {
+  width: 704px;
+  height: 384px;
+}
+
+.section_1 .section_1_task h2 {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 88px;
+  color: #12141d;
+  margin-bottom: 32px;
+}
+.section_1 .section_1_task h2 span {
+  color: #ffc947;
+}
+.section_1 .section_1_task p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #12141d;
+  opacity: 0.8;
+  width: 636px;
+  margin-bottom: 48px;
+}
+.section_1 .section_1_task a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #12141d;
+  width: 369px;
+  height: 64px;
+  background: #ffc947;
+  border-radius: 8px;
+  padding-left: 24px;
+}
+
+.section_1 .section_1_task a::after {
+  content: "";
+  background-image: url(../images/Vector.svg);
+  background-repeat: no-repeat;
+  display: block;
+  width: 28px;
+  height: 13px;
+  position: relative;
+  left: 150px;
+}
+
+.section_1_img {
+  display: flex;
+}
+.section_1 .section_1_img .fon {
+  width: 800px;
+  height: 700px;
+  margin-top: -150px;
+  margin-left: -60px;
+}
+
+.section_1 .section_1_img .girl {
+  width: 750px;
+  height: 670px;
+  margin-left: -850px;
+  margin-top: -80px;
+}
+/* section one styles end */
+
+/* section two styles start */
+
+

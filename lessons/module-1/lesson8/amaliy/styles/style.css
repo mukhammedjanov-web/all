@@ -1,0 +1,48 @@
+.title{
+    width: 400px;
+    margin-left: 150px;
+}
+
+.box{
+    /* display: flex; */
+    /* align-content: flex-start;
+    width: 400px; */
+}
+
+#Email{
+    
+    width: 360px;
+}
+
+.box-1{
+    display: flex;
+    margin: 40px;
+    
+}
+.button{
+   margin-left: 100px;
+   padding: 5px 70px;
+   background-color: rgb(69, 69, 246);
+   border: 1px solid rgb(69, 69, 246);
+   border-radius: 40px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   -ms-border-radius: 40px;
+   -o-border-radius: 40px;
+   color: aliceblue;
+   font-weight: bold;
+}
+
+
+.box p{
+    font-weight: bold;
+    
+}
+
+#Confirmpassword{
+    margin-left: 10px;
+}
+
+#Lastname{
+    margin-left: 10px;
+}

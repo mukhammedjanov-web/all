@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+} .card{
+    width: 200px;
+    height: 300px;
+    box-shadow: 1px 2px 4px;
+    overflow: scroll;
+}
+
+.card::-webkit-scrollbar-track{
+    background: green;
+}

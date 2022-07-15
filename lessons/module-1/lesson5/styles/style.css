@@ -1,0 +1,23 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+@font-face {
+    font-family: "game-font";
+    src: url("../fonts/game/Game\ Of\ Squids.otf");
+}
+@font-face {
+    font-family: "harry";
+    src: url("../fonts/sans/HARRYP__.TTF");
+}
+@font-face {
+    font-family: 'horror';
+    src: url('../fonts/sans/This-Night.ttf');
+}
+
+.title {
+  font-family: 'horror', "harry", "game-font", 'Press Start 2P', "Fascinate", cursive;
+}
+.text {
+  font-family:  'game-font', "Indie Flower", cursive;
+}

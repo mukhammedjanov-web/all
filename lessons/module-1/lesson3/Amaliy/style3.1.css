@@ -1,0 +1,14 @@
+.item{
+    display:inline ;
+    list-style: none;
+    margin-right: 10px;
+    color: grey;
+}
+
+.home{
+    font-weight: 900;
+    color: black;
+}
+.list{
+    text-align: right;
+}

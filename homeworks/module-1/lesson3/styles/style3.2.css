@@ -1,0 +1,21 @@
+
+.main{
+    text-align: center;
+}
+
+.task{
+    text-align: center;
+}
+
+.item{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 40px;
+    color: brown;
+}
+
+.home{
+    color: black;
+    font-weight: 600;
+}
